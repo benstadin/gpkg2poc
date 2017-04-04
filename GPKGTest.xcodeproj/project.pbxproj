@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C9598171E92F6710042A9C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C9598161E92F6710042A9C0 /* main.cpp */; };
-		6C9598201E92F6950042A9C0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C95981D1E92F6950042A9C0 /* sqlite3.c */; };
+		6C9598241E9325F50042A9C0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C9598211E9325F50042A9C0 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,9 @@
 /* Begin PBXFileReference section */
 		6C9598131E92F6710042A9C0 /* GPKGTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPKGTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9598161E92F6710042A9C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		6C95981D1E92F6950042A9C0 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = "../../../sqlite-amalgamation-3180000/sqlite3.c"; sourceTree = "<group>"; };
-		6C95981E1E92F6950042A9C0 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "../../../sqlite-amalgamation-3180000/sqlite3.h"; sourceTree = "<group>"; };
-		6C95981F1E92F6950042A9C0 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "../../../sqlite-amalgamation-3180000/sqlite3ext.h"; sourceTree = "<group>"; };
+		6C9598211E9325F50042A9C0 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		6C9598221E9325F50042A9C0 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		6C9598231E9325F50042A9C0 /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3ext.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 		6C9598151E92F6710042A9C0 /* GPKGTest */ = {
 			isa = PBXGroup;
 			children = (
-				6C95981D1E92F6950042A9C0 /* sqlite3.c */,
-				6C95981E1E92F6950042A9C0 /* sqlite3.h */,
-				6C95981F1E92F6950042A9C0 /* sqlite3ext.h */,
+				6C9598211E9325F50042A9C0 /* sqlite3.c */,
+				6C9598221E9325F50042A9C0 /* sqlite3.h */,
+				6C9598231E9325F50042A9C0 /* sqlite3ext.h */,
 				6C9598161E92F6710042A9C0 /* main.cpp */,
 			);
 			path = GPKGTest;
@@ -128,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C9598171E92F6710042A9C0 /* main.cpp in Sources */,
-				6C9598201E92F6950042A9C0 /* sqlite3.c in Sources */,
+				6C9598241E9325F50042A9C0 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +259,7 @@
 				6C95981C1E92F6710042A9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
